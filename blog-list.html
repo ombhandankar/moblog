@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Posts - Minimal Blog</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin-right: 15px;
+            color: #555;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .post-list {
+            list-style: none;
+            padding: 0;
+        }
+        .post-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .post-title {
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .post-title:hover {
+            text-decoration: underline;
+        }
+        .date {
+            color: #777;
+            font-size: 0.9em;
+            display: block;
+            margin-top: 4px;
+        }
+        footer {
+            margin-top: 40px;
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Minimal Blog</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="blog-list.html">All Posts</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>All Blog Posts</h2>
+        <ul class="post-list">
+            <li>
+                <a href="post1.html" class="post-title">Getting Started with Minimal Blogging</a>
+                <span class="date">March 17, 2025</span>
+            </li>
+            <li>
+                <a href="post2.html" class="post-title">Why Simplicity Matters</a>
+                <span class="date">March 15, 2025</span>
+            </li>
+            <li>
+                <a href="post3.html" class="post-title">The Power of Plain HTML</a>
+                <span class="date">March 12, 2025</span>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>© 2025 My Minimal Blog</p>
+    </footer>
+</body>
+</html>
